@@ -1,0 +1,13 @@
+List of Class:
+==================
+UIUtils
+1.Queue<IReplace> getTmpReplaces().
+Retunr a queue of IReplace.
+
+
+==================
+IReplace: an IReplace represent 
+
+
+
+
