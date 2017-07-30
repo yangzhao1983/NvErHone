@@ -1,0 +1,83 @@
+1. Application will get input from a word document as a XWPFDocument object. XWPFDocument provide APIs for getting/setting content of Word document.
+
+2. XWPFDocument object was parsed as a DocObject object. 
+A DocOject object is used to represent the constructed content of the word document, including(first line is the mark of the constructed content item, the left line(s) should be fixed since it has been broken due to encod issue):
+
+北京建研院司鉴中心[2012] 建鉴字第152号
+锟斤拷锟斤拷锟斤拷锟斤拷院司锟斤拷锟斤拷锟斤拷
+
+委 托 人：${wtr}
+锟斤拷锟斤拷锟斤拷锟斤拷院司锟斤拷锟斤拷锟斤拷, year
+委 锟斤拷 锟剿ｏ拷(.+)
+
+委托日期： 2012年12月 4日
+委锟斤拷锟斤拷锟节ｏ拷
+委锟斤拷锟斤拷锟斤拷
+委锟斤拷锟斤拷锟节ｏ拷 (\\d+)\\D+(\\d+)\\D+(\\d+)\\D+
+
+委托事项：对北京市顺义区马坡地区香榭花园D33号住宅质量问题及修复方案进行鉴定
+委锟斤拷锟斤拷锟筋：
+委锟斤拷锟斤拷锟斤拷
+委锟斤拷锟斤拷锟筋：(.+)
+
+7. 本鉴定书一式五份，具有同等法律效力。其中正本一式二份，交委托人一份，副本一式三份，交委托人两份，本中心存档正副本各一份。
+锟斤拷锟斤拷锟斤拷锟斤拷一式
+7. 锟斤拷锟斤拷锟斤拷锟斤拷一式(.+)锟捷ｏ拷锟斤拷锟斤拷同锟饺凤拷锟斤拷效锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷一式锟斤拷锟捷ｏ拷锟斤拷委锟斤拷锟斤拷一锟捷ｏ拷锟斤拷锟斤拷一式(.+)锟捷ｏ拷锟斤拷委锟斤拷锟斤拷(.+)锟捷ｏ拷锟斤拷锟斤拷锟侥存档锟斤拷锟斤拷锟斤拷锟斤拷一锟捷★拷
+
+北京市建筑工程研究院建设工程质量司法鉴定中心
+北京市顺义区马坡地区香榭花园D33号住宅
+质量问题及修复方案鉴定
+锟斤拷锟斤拷锟叫斤拷锟斤拷锟斤拷锟斤拷锟叫撅拷院锟斤拷锟借工锟斤拷锟斤拷锟斤拷司锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷,锟斤拷锟斤拷锟斤拷锟斤拷院司锟斤拷锟斤拷锟斤拷
+
+北京建研院司鉴中心[2012]建鉴字第152号
+锟斤拷锟斤拷锟斤拷锟斤拷院司锟斤拷锟斤拷锟斤拷
+
+委托人
+委锟斤拷锟斤拷
+
+委托鉴定事项
+委锟叫硷拷锟斤拷锟斤拷锟筋：,锟斤拷锟斤拷锟斤拷锟斤拷
+
+受理日期
+锟斤拷锟斤拷锟斤拷锟节ｏ拷(\\d+)锟斤拷(\\d+)锟斤拷(\\d+)锟斤拷
+
+鉴定日期
+锟斤拷锟斤拷锟斤拷锟节ｏ拷(\\d+)锟斤拷(\\d+)锟斤拷 (\\d+)锟秸★拷(\\d+)锟斤拷(\\d)锟斤拷(\\d)锟斤拷"
+
+鉴定地点
+锟斤拷锟斤拷锟截点：(\\S+)
+
+案情摘要
+斤拷锟斤拷摘要  to 锟斤拷锟教概匡拷
+
+工程概况
+锟斤拷锟教概匡拷  to 锟斤拷锟斤拷锟斤拷锟�
+
+现场勘验调查记录（2012年12月 25日、2013年4月8日）
+锟街筹拷锟斤拷锟斤拷锟斤拷锟斤拷录 to 4.2锟街筹拷实锟斤拷锟斤拷片
+
+4.2现场实况照片
+4.2锟街筹拷实锟斤拷锟斤拷片  to 锟斤拷锟斤拷说锟斤拷
+
+分析说明
+锟斤拷锟斤拷锟街筹拷锟斤拷锟斤拷锟斤拷锟�  to 锟斤拷锟斤拷锟斤拷锟斤拷
+
+鉴定依据
+锟斤拷锟斤拷锟斤拷锟斤拷  to 锟斤拷锟斤拷锟斤拷锟�
+
+鉴定意见
+锟斤拷锟斤拷锟斤拷锟�  to 锟斤拷司锟斤拷锟斤拷锟斤拷锟斤拷执业证锟斤拷
+锟斤拷锟斤拷锟斤拷锟�
+
+《司法鉴定人执业证》证号1：110004087036
+锟斤拷司锟斤拷锟斤拷锟斤拷锟斤拷执业证锟斤拷证锟脚ｏ拷(.+)
+
+《司法鉴定人执业证》证号2：110004087036
+锟斤拷司锟斤拷锟斤拷锟斤拷锟斤拷执业证锟斤拷证锟脚ｏ拷(.+)
+
+二○一三年六月三日
+锟斤拷锟斤拷锟叫斤拷锟斤拷锟斤拷锟斤拷锟叫撅拷院锟斤拷锟借工锟斤拷锟斤拷锟斤拷司锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷
+
+3. Application will put these properties of DocObject object to GUI, so that users can update/save them.
+4. DocObject will be transfered to XWPFDocument Object, so that it can be written out.
+5. The XWPFDocument Object will be written out.
